@@ -1,0 +1,167 @@
+/* default styles */
+/* Resetting Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Your preferred font', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* or your preferred text color */
+    background-color: #fff; /* or your preferred background color */
+  }
+  
+  /* Link Styles */
+  a {
+    text-decoration: none;
+    color: #007bff; /* or your preferred link color */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+/* default style end */
+.card-frame{
+    padding: 20px;
+    background-color: aliceblue;
+    width: 440px;
+    height: 220px;
+    
+    
+}
+.posts{
+    margin-bottom: 10px;
+}
+
+
+.card-image,#card-img{
+    width: 400px;
+    height: 200px;
+}
+.card-body{
+    margin-left: 20%;
+    width: 440px;
+    
+    
+}
+.card-footer{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    
+}
+.icon{
+    float: right;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 100px;
+    height: 30px;
+    
+    margin: 10px 20px 10px 0;
+}
+.icon-container a{
+    justify-content: space-between;
+}
+i{
+    font-size: 25px;
+}
+
+.prfoile-img{
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+}
+.fa-hearting{
+    background-color: red;
+}
+
+/* style for comment box popup */
+/* Styles for the comment popup */
+.comment-popup {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.comment-popup h2 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.comment-popup .close-comment-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.comment-popup .close-comment-popup:hover {
+    color: red;
+}
+
+.comment-popup .comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-popup .comment-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.comment-popup .comment-item:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.comment-popup .comment-text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.comment-popup form {
+    margin-top: 20px;
+}
+
+.comment-popup textarea {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.comment-popup button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comment-popup button:hover {
+    background-color: #0056b3;
+}
